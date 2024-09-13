@@ -1,6 +1,7 @@
 #BRAYAN IVAN FUENTES AREVALO
 #236W0315
 
+
 lista=["cheetos",16,"coca",17,"chocokrispis",75,"leche",250,"aceite",30,"fricoles",40]
 lista.append("Boing")
 lista.append(16)
@@ -19,14 +20,21 @@ listaVide.append(900)
 listaVide.append("Sony")
 listaVide.append(1000)
 
-print("\nLISTA DE COMESTIBLES\n")
-for elemento in lista:
-    print(elemento)
-
-print("\nLISTA DE ELECTRODOMESTICOS\n")
-for elemento in listaElec:
-    print(elemento)
-
-print("\nLISTA DE VIDEOJUEGOS\n")
-for elemento in listaVide:
-    print(elemento)
+#LISTA DE COMESTIBLES 
+print("============================")
+print("LISTA DE COMESTIBLES")
+print("============================\n")
+for comestible in lista:
+    print(comestible)
+#LISTA DE ELECTRODOMESTICOS
+print("============================")
+print("LISTA DE ELECTRODOMESTICOS")
+print("============================\n")
+for electrodomestico in listaElec:
+    print(electrodomestico)
+#LISTA DE VIDEOJUEGOS
+print("============================")
+print("LISTA DE VIDEOJUEGOS")
+print("============================\n")
+for videojuego in listaVide:
+    print(videojuego)
